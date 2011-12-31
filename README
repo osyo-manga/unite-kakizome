@@ -1,2 +1,2 @@
 " example command
-:Unite kakizome -update-time=1
+:Unite kakizome -update-time=1 -cursor-line-highlight=Normal
