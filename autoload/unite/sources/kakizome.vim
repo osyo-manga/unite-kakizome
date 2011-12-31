@@ -124,7 +124,6 @@ function! s:draw_paint(window, button)
 endfunction
 
 function! s:source.hooks.on_syntax(args, context)
-	syntax clear
 	execute "syntax match black /".self.source.kakizome.black."/ containedin=uniteSource_kakizome"
 	highlight black ctermfg=black ctermbg=black guibg=black guifg=black
 	execute "syntax match white /".self.source.kakizome.white."/ containedin=uniteSource_kakizome"
